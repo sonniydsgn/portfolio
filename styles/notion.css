@@ -423,6 +423,15 @@ a[href="#963c8630c2ec40b295006e23b38c8d24"] {
   display: none;
 }
 
+.notion-table {
+  overflow-x: auto;
+  overflow-y: hidden;
+}
+
+.notion-table-view {
+  padding-left: 24px !important;
+  padding-right: 24px !important;
+}
 
 
 /* Media */
