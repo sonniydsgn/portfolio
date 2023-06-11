@@ -163,6 +163,15 @@
   padding: 10px;
 }
 
+.notion-page-title-text {
+  border-bottom: none;
+}
+
+.notion-page-link {
+  border-radius: 4px;
+  transition: color 0.2s ease, background-color 0.2s ease, opacity 0.2s ease;
+}
+
 /* only target safari */
 @media screen and (-webkit-min-device-pixel-ratio: 0) {
   _::-webkit-full-page-media,
@@ -243,24 +252,8 @@ a[href="#963c8630c2ec40b295006e23b38c8d24"] {
   display: none;
 }
 
-@media only screen and (max-width: 920px) {
-  .index-page.notion-page {
-    padding-left: 2vw;
-    padding-right: 2vw;
-  }
-}
-
-@media only screen and (max-width: 720px) {
-  .notion-page {
-    padding-left: 2vw;
-    padding-right: 2vw;
-  }
-}
-
-@media only screen and (max-width: 600px) {
-  .notion-search-button {
-    display: none !important;
-  }
+.notion-page-no-cover.notion-page-has-image-icon {
+  padding-top: 96px;
 }
 
 .notion .notion-page-icon-cover {
@@ -281,14 +274,6 @@ a[href="#963c8630c2ec40b295006e23b38c8d24"] {
 
 .notion-page-cover-wrapper {
   box-shadow: 2px 2px 8px 4px rgba(15, 15, 15, 0.1);
-}
-
-@media only screen and (max-width: 1200px) {
-  .notion-page-cover-wrapper,
-  .notion-page-cover-wrapper span,
-  .notion-page-cover-wrapper img {
-    border-radius: 0;
-  }
 }
 
 .notion-code {
@@ -436,4 +421,92 @@ a[href="#963c8630c2ec40b295006e23b38c8d24"] {
 
 .notion-block-260baa77f1e1428b97fb14ac99c7c385 {
   display: none;
+}
+
+
+
+/* Media */
+
+@media only screen and (max-width: 1200px) {
+  .notion-page-cover-wrapper,
+  .notion-page-cover-wrapper span,
+  .notion-page-cover-wrapper img {
+    border-radius: 0;
+  }
+}
+
+@media only screen and (max-width: 750px) {
+  .notion-page {
+    padding-left: 24px;
+    padding-right: 24px;
+  }
+
+  .notion-page-no-cover.notion-page-has-image-icon {
+    padding-top: 64px;
+  }
+
+  .notion-title {
+    font-size: 2rem;
+  }
+
+  .notion-gallery-grid-size-large {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media only screen and (max-width: 640px) {
+  .notion-page-no-cover.notion-page-has-image-icon {
+    padding-top: 16px;
+  }
+
+  .notion-h1 {
+    font-size: 1.65em;
+  }
+
+  /* О книгах про дизайн */
+  .notion-block-274057d492924c6aaf4ba2d46585e72c {
+    display: none;
+  }
+
+  .notion-block-7695f594493a43f697b64caf4faa5b6c {
+    padding-bottom: 0;
+  }
+
+  .notion-block-1e655d669104473ea8b6d228251452d0 {
+    padding-top: 8px;
+  }
+
+
+  /* Мама, я повар */
+  .notion-block-911a81f78d5c4eb19c1fc0704b0fc9df {
+    display: none;
+  }
+
+  .notion-block-2d2bf823b3f14e5e8c766a946f0061d7 {
+    display: none;
+  }
+
+  .notion-block-d3e95e1e793643fb986fffb79ec35f22 {
+    padding-bottom: 0;
+  }
+
+  .notion-block-6b3b71d0bce746d6837bac24bb4f7bfe {
+    padding-top: 8px;
+  }
+
+  .notion-block-e62d2d37a97445b88d17a7f7eef605e3 {
+    padding-bottom: 0;
+  }
+
+  .notion-block-0880242a533740908363a7076164c6b1 {
+    padding-bottom: 0;
+  }
+
+  .notion-block-e0852d57fb964d8d814167b01d164d2a {
+    padding-top: 0;
+  }
+
+  .notion-block-e62d2d37a97445b88d17a7f7eef605e3 {
+    display: none;
+  }
 }
