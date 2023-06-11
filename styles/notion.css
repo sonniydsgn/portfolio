@@ -39,11 +39,19 @@
   height: auto;
 }
 
+.notion-collection-card .notion-page-link {
+  margin: 1px 0;
+}
+
+.notion-collection-card .notion-page-title-text {
+  top: 1;
+  padding-left: 0;
+}
+
 .notion-page {
   padding-left: 0;
   padding-right: 0;
   padding-bottom: 30vh !important;
-  line-height: 1.65;
 }
 
 .notion-collection-header {
@@ -403,16 +411,13 @@ a[href="#963c8630c2ec40b295006e23b38c8d24"] {
   backdrop-filter: saturate(180%) blur(8px);
 }
 
-/* Workaround for Firefox not supporting backdrop-filter yet */
-@-moz-document url-prefix() {
-  .dark-mode .notion-header {
-    background: hsla(203, 8%, 20%, 0.8);
-  }
-}
-
 .notion-bookmark:hover {
   border-image: linear-gradient(90.68deg, #b439df 0.26%, #e5337e 102.37%);
   border-image-slice: 1;
+}
+
+.notion {
+  font-size: 17px;
 }
 
 .notion-block-ab9a258d6cf444f3bb40dc2600feae91 .notion-column {
@@ -424,13 +429,24 @@ a[href="#963c8630c2ec40b295006e23b38c8d24"] {
 }
 
 .notion-table {
-  overflow-x: auto;
-  overflow-y: hidden;
+  transform: translate3d(0px, 0px, 0px);
+  will-change: scroll-position, transform;
+  width: 100% !important;
 }
 
-.notion-table-view {
-  padding-left: 24px !important;
-  padding-right: 24px !important;
+.notion-table-row,
+.notion-table-header-inner,
+.notion-table-cell {
+  border-color: var(--fg-color-0) !important;
+}
+
+.notion-page-link {
+  margin: 3px 0;
+}
+
+a .notion-page-title-text {
+  top: -1px;
+  padding-left: 2px;
 }
 
 
@@ -448,6 +464,17 @@ a[href="#963c8630c2ec40b295006e23b38c8d24"] {
   .notion-page {
     padding-left: 24px;
     padding-right: 24px;
+  }
+
+  .notion-table-header,
+  .notion-table-body {
+    min-width: calc((100% - 48px) - 0px);
+  }
+
+  .notion-table-view {
+    min-width: 100% !important;
+    padding-left: 24px !important;
+    padding-right: 24px !important;
   }
 
   .notion-page-no-cover.notion-page-has-image-icon {
@@ -512,7 +539,7 @@ a[href="#963c8630c2ec40b295006e23b38c8d24"] {
   }
 
   .notion-block-e0852d57fb964d8d814167b01d164d2a {
-    padding-top: 0;
+    padding-top: 8px;
   }
 
   .notion-block-e62d2d37a97445b88d17a7f7eef605e3 {
