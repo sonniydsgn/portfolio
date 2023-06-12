@@ -18,6 +18,10 @@
   --fg-color-2: rgba(255, 255, 255, 0.443);
   --fg-color-3: rgba(255, 255, 255, 0.443);
   --fg-color-6: rgba(255, 255, 255, 0.8);
+
+  .notion-hr {
+    border-color: var(--fg-color-0)
+  }
 }
 
 .light-mode {
