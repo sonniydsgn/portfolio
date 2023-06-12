@@ -430,14 +430,17 @@ a[href="#963c8630c2ec40b295006e23b38c8d24"] {
   display: none;
 }
 
+.notion-collection {
+  width: 100%;
+}
+
 .notion-table {
-  transform: translate3d(0px, 0px, 0px);
-  will-change: scroll-position, transform;
-  /* width: 100vw !important;
-  max-width: 100vw !important; */
-  overflow-y: hidden;
-  overflow-x: auto;
-  -webkit-overflow-scrolling: touch;
+  width: 100% !important;
+}
+
+.notion-table-view {
+  padding-left: 0 !important;
+  padding-right: 0 !important;
 }
 
 .notion-table-row,
@@ -480,8 +483,6 @@ a .notion-page-title-text {
 
   .notion-table-view {
     width: 100% !important;
-    padding-left: 24px !important;
-    padding-right: 24px !important;
   }
 
   .notion-page-no-cover.notion-page-has-image-icon {
