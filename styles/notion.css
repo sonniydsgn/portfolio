@@ -24,10 +24,8 @@
   }
 }
 
-.light-mode {
-  .notion-hr {
-    border-color: var(--fg-color-1)
-  }
+.notion-hr {
+  border-color: var(--fg-color-1)
 }
 
 .notion-frame {
