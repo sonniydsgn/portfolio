@@ -476,11 +476,6 @@ a .notion-page-title-text {
     padding-right: 24px;
   }
 
-  .notion-table-header,
-  .notion-table-body {
-    min-width: calc((100% - 48px) - 0px);
-  }
-
   .notion-table-view {
     width: 100% !important;
   }
