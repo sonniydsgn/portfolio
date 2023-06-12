@@ -463,6 +463,10 @@ a .notion-page-title-text {
   word-break: normal;
 }
 
+.notion-table-cell .notion-link {
+  word-break: normal;
+}
+
 
 /* Media */
 
