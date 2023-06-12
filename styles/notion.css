@@ -430,6 +430,12 @@ a[href="#963c8630c2ec40b295006e23b38c8d24"] {
   display: none;
 }
 
+.notion-table {
+  transform: translate3d(0px, 0px, 0px);
+  will-change: scroll-position, transform;
+  width: 100% !important;
+}
+
 .notion-table-row,
 .notion-table-header-inner,
 .notion-table-cell {
@@ -463,7 +469,13 @@ a .notion-page-title-text {
     padding-right: 24px;
   }
 
+  .notion-table-header,
+  .notion-table-body {
+    min-width: calc((100% - 48px) - 0px);
+  }
+
   .notion-table-view {
+    min-width: 100% !important;
     padding-left: 24px !important;
     padding-right: 24px !important;
   }
