@@ -434,6 +434,9 @@ a[href="#963c8630c2ec40b295006e23b38c8d24"] {
   transform: translate3d(0px, 0px, 0px);
   will-change: scroll-position, transform;
   width: 100% !important;
+  overflow-y: hidden;
+  overflow-x: scroll;
+  -webkit-overflow-scrolling: touch;
 }
 
 .notion-table-row,
