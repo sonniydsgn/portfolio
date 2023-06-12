@@ -459,6 +459,10 @@ a .notion-page-title-text {
   top: 0;
 }
 
+.notion-table-cell {
+  word-break: normal;
+}
+
 
 /* Media */
 
