@@ -10,7 +10,7 @@ export default siteConfig({
 
   // basic site info (required)
   name: 'Алексей Калинин — Портфолио',
-  domain: 'nextjs-notion-starter-kit.transitivebullsh.it',
+  domain: 'portfolio-sonniydsgn.vercel.app',
   author: 'Алексей Калинин',
 
   // open graph metadata (optional)
@@ -26,12 +26,13 @@ export default siteConfig({
   defaultPageCoverPosition: 0.5,
 
   // whether or not to enable support for LQIP preview images (optional)
-  isPreviewImageSupportEnabled: true,
+  isPreviewImageSupportEnabled: false,
 
   // whether or not redis is enabled for caching generated preview images (optional)
   // NOTE: if you enable redis, you need to set the `REDIS_HOST` and `REDIS_PASSWORD`
   // environment variables. see the readme for more info
   isRedisEnabled: false,
+  isSearchEnabled: false,
 
   // map of notion page IDs to URL paths (optional)
   // any pages defined here will override their default URL paths
