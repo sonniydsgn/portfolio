@@ -30,10 +30,6 @@
   padding: 0;
 }
 
-.notion-page-scroller {
-  overflow-x: hidden;
-}
-
 .notion-gallery-grid {
   border-top: none;
 }
@@ -472,6 +468,10 @@ a .notion-page-title-text {
   .notion-page-cover-wrapper span,
   .notion-page-cover-wrapper img {
     border-radius: 0;
+  }
+
+  .notion-page-scroller {
+    overflow-x: hidden;
   }
 }
 
