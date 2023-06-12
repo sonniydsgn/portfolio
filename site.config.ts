@@ -10,7 +10,7 @@ export default siteConfig({
 
   // basic site info (required)
   name: 'Алексей Калинин — Портфолио',
-  domain: 'portfolio-sonniydsgn.vercel.app',
+  domain: 'sonniydsgn.vercel.app',
   author: 'Алексей Калинин',
 
   // open graph metadata (optional)
@@ -44,7 +44,8 @@ export default siteConfig({
     '/price-list': '8f8c15f71630417392e141df96ca5522',
     '/about': 'd4285e9b710d4232934203597f8d863d',
     '/dev': 'd209ba7248c7478a9d228c79fb123639',
-    '/graphdesign': '64c1cd58cd504c9c8e4e2c7f752ac111'
+    '/graphdesign': '64c1cd58cd504c9c8e4e2c7f752ac111',
+    '/': '#6dbad34251864bc7b3d6f4f6423ccb10'
   },
 
   // whether to use the default notion navigation style or a custom one with links to
