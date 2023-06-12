@@ -97,6 +97,7 @@ a[href="видеообзор внутри inteo"] {
 
 .notion-asset-wrapper-video > div {
   padding-bottom: 56.25%;
+  height: auto !important;
 }
 
 .notion-block-cdb1b65cc6ca4344999aabc2a851d4a1 > div {
