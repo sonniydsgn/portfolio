@@ -41,6 +41,7 @@ export default siteConfig({
   pageUrlOverrides: {
     '/mamayapovar': '87df428ca25f4115b9e55c9c1198df14',
     '/books4designers': '3bc28dd324304e5995d2fb5f51df04d9',
+    '/alivewater': 'a13f25e29804427dbce60ded10626673',
     '/price-list': '8f8c15f71630417392e141df96ca5522',
     '/about': 'd4285e9b710d4232934203597f8d863d',
     '/dev': 'd209ba7248c7478a9d228c79fb123639',

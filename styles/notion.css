@@ -18,10 +18,18 @@
   --fg-color-2: rgba(255, 255, 255, 0.443);
   --fg-color-3: rgba(255, 255, 255, 0.443);
   --fg-color-6: rgba(255, 255, 255, 0.8);
+}
 
-  .notion-hr {
-    border-color: var(--fg-color-0)
-  }
+.dark-mode .notion-hr {
+  border-color: var(--fg-color-0);
+}
+
+.dark-mode .notion-page-title-text {
+  border-color: var(--fg-color-0);
+}
+
+.notion-hr {
+  border-color: var(--fg-color-1);
 }
 
 .notion-table-cell-select,
@@ -36,16 +44,13 @@ a[href="видеообзор внутри inteo"] {
   pointer-events: none;
 }
 
-.notion-hr {
-  border-color: var(--fg-color-1)
-}
-
 .notion-frame {
   padding: 0;
 }
 
 .notion-gallery-grid {
   border-top: none;
+  grid-auto-rows: unset;
 }
 
 .notion-collection-card-cover {
@@ -57,8 +62,12 @@ a[href="видеообзор внутри inteo"] {
   margin: 1px 0;
 }
 
+.notion-collection-card .notion-page-link:hover {
+  background-color: transparent;
+}
+
 .notion-collection-card .notion-page-title-text {
-  top: 1;
+  top: 1px;
   padding-left: 0;
 }
 
@@ -71,10 +80,6 @@ a[href="видеообзор внутри inteo"] {
 .notion-collection-header {
   display: none;
 }
-
-/* .index-page {
-  --notion-max-width: 900px;
-} */
 
 .notion-asset-wrapper {
   margin-top: 1em;
@@ -169,12 +174,9 @@ a[href="видеообзор внутри inteo"] {
   z-index: 102;
 }
 
-.notion-block-265a3ca8aa2645b8a679129d3eb0e609 > div {
-  width: 55vw !important;
-  min-width: 100%;
-}
-
-.notion-block-cbbc6c0efeea46b5b8c1c1301e2f5ab2 > div {
+.notion-block-265a3ca8aa2645b8a679129d3eb0e609 > div,
+.notion-block-cbbc6c0efeea46b5b8c1c1301e2f5ab2 > div,
+.notion-block-36f4f95f59194705acb46cdbec0f5ed0 > div {
   width: 55vw !important;
   min-width: 100%;
 }
@@ -200,7 +202,8 @@ a[href="видеообзор внутри inteo"] {
 }
 
 .notion-page-title-text {
-  border-bottom: none;
+  padding-bottom: 2px;
+  font-weight: 600;
 }
 
 .notion-page-link {
@@ -289,7 +292,8 @@ a[href="видеообзор внутри inteo"] {
   display: none;
 }
 
-a[href="#963c8630c2ec40b295006e23b38c8d24"] {
+a[href="#963c8630c2ec40b295006e23b38c8d24"],
+a[href="#e4c33df45ffa4fc395b7ce4ecf432684"] {
   display: none;
 }
 
@@ -492,8 +496,31 @@ a .notion-page-title-text {
   word-break: normal;
 }
 
+/* Прайс-лист */
+.notion-block-f108580ce4ba4c9087780d7d6587adc7,
+.notion-block-2e4067e8d8e946ddb913b3646f6596bc,
+.notion-block-c18cfd0ca22144ddba430e08c9faaa78 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 32px;
+}
 
-/* Media */
+.notion-block-f108580ce4ba4c9087780d7d6587adc7 .notion-spacer,
+.notion-block-2e4067e8d8e946ddb913b3646f6596bc .notion-spacer,
+.notion-block-c18cfd0ca22144ddba430e08c9faaa78 .notion-spacer {
+  display: none;
+}
+
+.notion-block-9e051b3e869248c68788e0ad52ce50be {
+  margin-top: 1.5em;
+}
+
+.notion-block-a13f25e29804427dbce60ded10626673 .notion-collection-row-property:nth-child(3) {
+  display: none;
+}
+
+
+/* Медиа выражения */
 
 @media only screen and (max-width: 1200px) {
   .notion-page-cover-wrapper,
@@ -548,12 +575,19 @@ a .notion-page-title-text {
     width: 120px;
   }
 
-
-  /* О книгах про дизайн */
-  .notion-block-20452533d49b4c5f8d2f03b475740682 {
+  /* Живая вода */
+  .notion-block-0a4995369d3c44279a7ebb1d389541b9,
+  .notion-block-66f40aaa986a444abda90f4067eb6d88 {
     padding-top: 0;
   }
 
+  .notion-block-287a7d7da7b545b0968d9411fc4cc0f0 {
+    display: none;
+  }
+
+
+  /* О книгах про дизайн */
+  .notion-block-20452533d49b4c5f8d2f03b475740682,
   .notion-block-3be853c2c688407199b0c6b16369258a {
     padding-top: 0;
   }
@@ -576,35 +610,20 @@ a .notion-page-title-text {
     padding-top: 0;
   }
 
-  .notion-block-911a81f78d5c4eb19c1fc0704b0fc9df {
-    display: none;
-  }
-
-  .notion-block-2d2bf823b3f14e5e8c766a946f0061d7 {
-    display: none;
-  }
-
-  .notion-block-d3e95e1e793643fb986fffb79ec35f22 {
-    padding-bottom: 0;
-  }
-
-  .notion-block-6b3b71d0bce746d6837bac24bb4f7bfe {
-    padding-top: 8px;
-  }
-
+  .notion-block-911a81f78d5c4eb19c1fc0704b0fc9df,
+  .notion-block-2d2bf823b3f14e5e8c766a946f0061d7,
   .notion-block-e62d2d37a97445b88d17a7f7eef605e3 {
-    padding-bottom: 0;
+    display: none;
   }
 
+  .notion-block-d3e95e1e793643fb986fffb79ec35f22,
+  .notion-block-e62d2d37a97445b88d17a7f7eef605e3,
   .notion-block-0880242a533740908363a7076164c6b1 {
     padding-bottom: 0;
   }
 
+  .notion-block-6b3b71d0bce746d6837bac24bb4f7bfe,
   .notion-block-e0852d57fb964d8d814167b01d164d2a {
     padding-top: 8px;
-  }
-
-  .notion-block-e62d2d37a97445b88d17a7f7eef605e3 {
-    display: none;
   }
 }
