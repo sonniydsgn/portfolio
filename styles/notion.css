@@ -519,6 +519,10 @@ a .notion-page-title-text {
   display: none;
 }
 
+.notion-block-df9af6ad2b7b40cfaea6aea19a9f303e .notion-collection-card:nth-child(3) .notion-collection-card-property:nth-child(3) {
+  display: none;
+}
+
 
 /* Медиа выражения */
 
