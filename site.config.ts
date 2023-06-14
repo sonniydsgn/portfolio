@@ -9,7 +9,7 @@ export default siteConfig({
   rootNotionSpaceId: null,
 
   // basic site info (required)
-  name: 'Алексей Калинин — Портфолио',
+  name: 'Алексей Калинин — дизайнер интерфейсов',
   domain: 'sonniydsgn.vercel.app',
   author: 'Алексей Калинин',
 
