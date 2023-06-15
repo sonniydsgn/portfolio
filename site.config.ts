@@ -44,6 +44,7 @@ export default siteConfig({
     '/alivewater': 'a13f25e29804427dbce60ded10626673',
     '/price-list': '8f8c15f71630417392e141df96ca5522',
     '/about': 'd4285e9b710d4232934203597f8d863d',
+    '/contact': 'c3b9105e962e43cb9da92e6bf52a17b0',
     '/dev': 'd209ba7248c7478a9d228c79fb123639',
     '/graphdesign': '64c1cd58cd504c9c8e4e2c7f752ac111',
     '/': '#6dbad34251864bc7b3d6f4f6423ccb10',
@@ -64,14 +65,10 @@ export default siteConfig({
   // important pages
   // navigationStyle: 'default'
   navigationStyle: 'custom',
-  // navigationLinks: [
-  //   {
-  //     title: 'About',
-  //     pageId: 'f1199d37579b41cbabfc0b5174f4256a'
-  //   },
-  //   {
-  //     title: 'Contact',
-  //     pageId: '6a29ebcb935a4f0689fe661ab5f3b8d1'
-  //   }
-  // ]
+  navigationLinks: [
+    {
+      title: 'Связаться',
+      pageId: 'c3b9105e962e43cb9da92e6bf52a17b0'
+    }
+  ]
 })

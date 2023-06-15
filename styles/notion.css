@@ -256,6 +256,14 @@ a[href="видеообзор внутри inteo"] {
   font-weight: 700;
 }
 
+.notion-block-c3b9105e962e43cb9da92e6bf52a17b0 .notion-title {
+  margin-bottom: 8px;
+}
+
+.notion-block-c3b9105e962e43cb9da92e6bf52a17b0 .notion-page-content  {
+  margin-top: 0;
+}
+
 .notion-block-d209ba7248c7478a9d228c79fb123639 .notion-title {
   margin-bottom: 8px;
 }
@@ -523,6 +531,29 @@ a .notion-page-title-text {
   display: none;
 }
 
+.notion-block-3984074e47a94248a8bb1264e29ee901 {
+  padding: 36px 24px;
+  border-radius: 8px;
+  text-align: center;
+}
+
+.notion-block-3984074e47a94248a8bb1264e29ee901 .notion-callout-text {
+  margin: 0;
+}
+
+.notion-block-3984074e47a94248a8bb1264e29ee901 .notion-h {
+  margin: 0;
+  padding: 0;
+}
+
+.notion-block-3984074e47a94248a8bb1264e29ee901 .notion-page-icon-span {
+  display: none;
+}
+
+.notion-page-link.notion-block-c3b9105e962e43cb9da92e6bf52a17b0 {
+  display: none;
+}
+
 
 /* Медиа выражения */
 
@@ -577,6 +608,18 @@ a .notion-page-title-text {
 
   .notion-collection-row-property .notion-collection-column-title {
     width: 120px;
+  }
+
+  .notion-block-3984074e47a94248a8bb1264e29ee901 {
+    padding: 36px 20px;
+  }
+
+  .notion-block-302d22dadb2a436fa22b4f557345a1cc {
+    padding-bottom: 6px;
+  }
+
+  .notion-block-a9bfd2d43abe47b18680fb0bd1ef02e2 {
+    padding-top: 0;
   }
 
   /* Живая вода */
