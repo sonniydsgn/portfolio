@@ -653,6 +653,10 @@ a[href="#d3d843d9df934d638609fe6daff536f2"]{
     width: 100% !important;
   }
 
+  .notion-collection-card-cover {
+    height: auto;
+  }
+
   .notion-page-no-cover.notion-page-has-image-icon {
     padding-top: 64px;
   }
