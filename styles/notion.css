@@ -12,6 +12,14 @@
   --notion-header-height: 54px;
 }
 
+h1, h2 {
+  letter-spacing: -0.03em;
+}
+
+h3, .notion-page-title-text {
+  letter-spacing: -0.03em;
+}
+
 .dark-mode {
   --bg-color: #212121;
   --fg-color-0: rgba(255, 255, 255, 0.094);
@@ -174,13 +182,6 @@ a[href="видеообзор внутри inteo"] {
   z-index: 102;
 }
 
-.notion-block-265a3ca8aa2645b8a679129d3eb0e609 > div,
-.notion-block-cbbc6c0efeea46b5b8c1c1301e2f5ab2 > div,
-.notion-block-36f4f95f59194705acb46cdbec0f5ed0 > div {
-  width: 55vw !important;
-  min-width: 100%;
-}
-
 .notion-collection-card-property .notion-property-url .nested-form-link{
   text-decoration-color: var(--fg-color-2);
 }
@@ -297,11 +298,6 @@ a[href="видеообзор внутри inteo"] {
 }
 
 .notion-aside-table-of-contents-header {
-  display: none;
-}
-
-a[href="#963c8630c2ec40b295006e23b38c8d24"],
-a[href="#e4c33df45ffa4fc395b7ce4ecf432684"] {
   display: none;
 }
 
@@ -554,9 +550,87 @@ a .notion-page-title-text {
   display: none;
 }
 
+/* Книги для дизайнеров */
+.notion-block-265a3ca8aa2645b8a679129d3eb0e609 > div {
+  width: 55vw !important;
+  min-width: 100%;
+}
+
+
+/* Живая вода */
+a[href="#e4c33df45ffa4fc395b7ce4ecf432684"]{
+  display: none;
+}
+
+.notion-block-36f4f95f59194705acb46cdbec0f5ed0 > div {
+  width: 55vw !important;
+  min-width: 100%;
+}
+
+
+/* Мама, я повар! */
+a[href="#963c8630c2ec40b295006e23b38c8d24"] {
+  display: none;
+}
+
+.notion-block-cbbc6c0efeea46b5b8c1c1301e2f5ab2 > div {
+  width: 55vw !important;
+  min-width: 100%;
+}
+
+
+/* Имплантация зубов */
+a[href="#d3d843d9df934d638609fe6daff536f2"]{
+  display: none;
+}
+
+.notion-block-3d2f02c646824718836f316c7c1bcb73 > div {
+  width: 55vw !important;
+  min-width: 100%;
+}
+
+.notion-block-2444e8f20d064494aa420eba610aea0d > div {
+  width: 95.9% !important;
+}
+
+.notion-block-a2500e43ef5b49fca0d82433f8561f00 > div,
+.notion-block-5f4418d59d8942b9b075ed5c89ca7aa1 > div {
+  padding-bottom: 65%;
+}
+
+.notion-block-38ac37c87d284b6da213e49841a7d92d .notion-spacer {
+  display: none;
+}
+
+.notion-block-38ac37c87d284b6da213e49841a7d92d {
+  display: flex;
+  gap: 16px;
+}
+
+.notion-block-dbf3499c646646738f5ae02ae36e8274,
+.notion-block-9aa2d9769d1749b3b9240fdebfb34b36 {
+  width: 100% !important;
+}
+
+.notion-block-0fb5a83f996848328f59034bd91cfd66 b,
+.notion-block-d09e0a27da824a8893e2c345e4d994dc b {
+  display: flex;
+  width: 100%;
+}
+
+.notion-block-0fb5a83f996848328f59034bd91cfd66 .notion-gray,
+.notion-block-0fb5a83f996848328f59034bd91cfd66 .notion-orange,
+.notion-block-d09e0a27da824a8893e2c345e4d994dc .notion-gray,
+.notion-block-d09e0a27da824a8893e2c345e4d994dc .notion-orange {
+  display: none;
+}
+
+/* .notion-block-dbf3499c646646738f5ae02ae36e8274 {
+  width: 100% !important;
+} */
+
 
 /* Медиа выражения */
-
 @media only screen and (max-width: 1200px) {
   .notion-page-cover-wrapper,
   .notion-page-cover-wrapper span,
@@ -644,11 +718,12 @@ a .notion-page-title-text {
     display: none;
   }
 
-  .notion-block-7695f594493a43f697b64caf4faa5b6c {
+  .notion-block-7695f594493a43f697b64caf4faa5b6c,
+  .notion-block-20452533d49b4c5f8d2f03b475740682 {
     padding-bottom: 0;
   }
 
-  .notion-block-1e655d669104473ea8b6d228251452d0 {
+  .notion-block-9b9426d1c5aa4bc69db3b209327d8646 {
     padding-top: 8px;
   }
 
@@ -673,5 +748,53 @@ a .notion-page-title-text {
   .notion-block-6b3b71d0bce746d6837bac24bb4f7bfe,
   .notion-block-e0852d57fb964d8d814167b01d164d2a {
     padding-top: 8px;
+  }
+
+
+  /* Имплантация зубов */
+  .notion-block-574ec0afacc7487f8b54dfda2ed548c6,
+  .notion-block-f901ae59da9a4d77b0bd1f929319890c {
+    padding-top: 0;
+  }
+
+  .notion-block-356e03379fb94321aa08d51e8d7adabc,
+  .notion-block-f7d1204889fc45c3b0a1a5fbc8fbd9c9 {
+    display: none;
+  }
+
+  .notion-block-ce274fbb22e242fdad2c03048d88cfb5,
+  .notion-block-dbf3499c646646738f5ae02ae36e8274 {
+    padding-bottom: 0;
+  }
+
+  .notion-block-3c834de1a70144abad924509ae856768 {
+    padding-top: 0;
+  }
+
+  .notion-block-2444e8f20d064494aa420eba610aea0d > div {
+    width: 100% !important;
+  }
+
+  .notion-block-9aa2d9769d1749b3b9240fdebfb34b36 {
+    padding-top: 8px;
+    padding-bottom: 16px;
+  }
+
+  .notion-block-0fb5a83f996848328f59034bd91cfd66 b,
+  .notion-block-d09e0a27da824a8893e2c345e4d994dc b {
+    display: initial;
+    width: initial;
+  }
+
+  .notion-block-0fb5a83f996848328f59034bd91cfd66 .notion-gray,
+  .notion-block-0fb5a83f996848328f59034bd91cfd66 .notion-orange,
+  .notion-block-d09e0a27da824a8893e2c345e4d994dc .notion-gray,
+  .notion-block-d09e0a27da824a8893e2c345e4d994dc .notion-orange {
+    display: initial;
+  }
+
+  .notion-block-38ac37c87d284b6da213e49841a7d92d {
+    display: flex;
+    gap: initial;
   }
 }

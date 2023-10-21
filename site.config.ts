@@ -39,6 +39,7 @@ export default siteConfig({
   // example:
   //
   pageUrlOverrides: {
+    '/implants': '106e5f0c69a642cd987e727284198277',
     '/mamayapovar': '87df428ca25f4115b9e55c9c1198df14',
     '/books4designers': '3bc28dd324304e5995d2fb5f51df04d9',
     '/alivewater': 'a13f25e29804427dbce60ded10626673',
