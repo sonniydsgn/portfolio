@@ -63,7 +63,7 @@ a[href="видеообзор внутри inteo"] {
 
 .notion-collection-card-cover {
   border-bottom: none;
-  height: auto;
+  height: 200px;
 }
 
 .notion-collection-card .notion-page-link {
