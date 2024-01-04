@@ -500,6 +500,16 @@ a .notion-page-title-text {
   word-break: normal;
 }
 
+/* Связаться */
+.notion-block-13a270082d3347ea82f721afe054b16d,
+.notion-block-b691c7e7db7545e4b770497b550f92f4 {
+  margin-top: 0;
+}
+
+.notion-block-f9c60a0d38e444a9a614acef1611ef2a .notion-hash-link {
+  display: none;
+}
+
 /* Прайс-лист */
 .notion-block-f108580ce4ba4c9087780d7d6587adc7,
 .notion-block-2e4067e8d8e946ddb913b3646f6596bc,
